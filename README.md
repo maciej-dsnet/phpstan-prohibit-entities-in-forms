@@ -1,0 +1,1 @@
+# phpstan-prohibit-entities-in-forms
