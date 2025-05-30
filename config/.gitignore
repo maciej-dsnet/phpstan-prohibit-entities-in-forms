@@ -1,4 +1,4 @@
 /vendor/
-compose.lock
+composer.lock
 .idea
 .vscode
