@@ -1,0 +1,30 @@
+{
+    "name": "dsnet/phpstan-prohibit-entities-in-forms",
+    "type": "phpstan-extension",
+    "authors": [
+        {
+            "name": "Maciej Korbaś",
+            "email": "maciej.korbas@dsnet.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dsnet\\PhpstanProhibitEntitiesInForms\\": "src/"
+        }
+    },
+    "extra": {
+        "phpstan": {
+            "includes": [
+                "config/rules.neon"
+            ]
+        }
+    },
+    "require": {
+        "nikic/php-parser": "^5.4",
+        "doctrine/orm": "^3.3",
+        "phpstan/phpstan": "^2.1"
+    },
+    "require-dev": {
+        "symfony/symfony": "^7.2"
+    }
+}

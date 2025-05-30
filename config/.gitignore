@@ -1,0 +1,4 @@
+/vendor/
+compose.lock
+.idea
+.vscode

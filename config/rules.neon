@@ -1,0 +1,5 @@
+services:
+    -
+        class: Dsnet\PhpstanProhibitEntitiesInForms\ProhibitEntitiesInForms
+        tags:
+            - phpstan.rules.rule
