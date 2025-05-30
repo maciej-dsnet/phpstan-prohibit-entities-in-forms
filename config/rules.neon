@@ -1,5 +1,5 @@
 services:
     -
-        class: Dsnet\PhpstanProhibitEntitiesInForms\ProhibitEntitiesInForms
+        class: Dsnet\PhpstanProhibitEntitiesInForms\Rule\ProhibitEntitiesInForms
         tags:
             - phpstan.rules.rule
